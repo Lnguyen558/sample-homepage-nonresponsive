@@ -70,21 +70,25 @@ margin-right: 15px;
 }
 
 /* format three images div to display on row */
-.three-images
+.three-column
 {
+    max-width: 100%;
     display: flex;
     justify-content: center;
+    
     
  
 }
 
 
 /* format three images with border and padding */
-#left-image, #middle-image, #right-image
+.three-column img
 {
     border: 3px solid greenyellow;
-    padding: 10px;
+   
     margin: 10px;
+    margin-right: auto;
+    
 } 
 
 
@@ -93,4 +97,6 @@ footer
 {
     text-align: center;
     color: red;
+    padding-bottom: 3%;
 }
+
