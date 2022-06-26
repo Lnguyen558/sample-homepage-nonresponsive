@@ -7,6 +7,12 @@
 
 }
 
+/* set image to 100% max width */
+img
+{
+    max-width: 100%;
+}
+
 /* set up page background color  and page border*/
 .container
 {
