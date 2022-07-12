@@ -1,89 +1,88 @@
-
-<!-- create a simple homepage for service info
-for Ohlone Web Design class -->
-
-
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage for Travel Info</title>
-    <link rel="stylesheet" href="style.css">
-    
-</head>
-<body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- for bootstrap -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+			crossorigin="anonymous"
+		/>
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+			crossorigin="anonymous"
+		></script>
 
-    <div class="container">
-    <!-- header starts -->
-    <header>
-        <div class="header">
-            <h1>European Travel</h1>
-            <h2>Your Destination site for urban travel</h2>
-        </div>
+		<!-- for icon from font awesome -->
+		<script src="https://kit.fontawesome.com/082f81ac36.js" crossorigin="anonymous"></script>
 
-    </header>
-    <!-- header ends -->
+		<!-- Bootstrap Font Icon CSS -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+		/>
 
-    <!-- navigation bar starts -->
-    <nav>
-        <ul class="nav-bar">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Destination</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-    <!-- navigation bar ends -->
+		<!--add google font  -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet" />
 
-    <main>
+		<!-- link to stylesheet -->
+		<link rel="stylesheet" href="style.css" />
+		<title>Responsive Website built with bootstrap</title>
+	</head>
 
-        <!-- main image  -->
-        <div class="main-image">
+	<body>
+		<!-- Navigation bar starts -->
 
-           <img src="img/london-bridge.jpg" alt="london bridge" title="london bridge" width="100%" height="300">
+		<nav class="navbar">
+			<img class="banner-pic" src="img/flag.png" alt="" />
 
-        </div>
+			<div class="container-banner">
+				<h1>Welcome To United Kingdoms</h1>
 
-        <!-- three images on three columsn -->
+				<ul class="navbar-menu">
+					<a href=""><li>Home</li></a>
+					<a href=""><li>Destination</li></a>
+					<a href=""><li>Landmarks</li></a>
+					<a href=""><li>Contact Us</li></a>
+				</ul>
+			</div>
 
-        <div class="three-column">
-        <div>
+			<img class="banner-pic" src="img/3lion.png" alt="" />
+		</nav>
 
-            <img src="img/london-red-phone.jpg" alt="london red phone booth" title="london red phone booth" width="300" height="300">
+		<!-- Navigation bar ends-->
 
-        </div>
+		<hr />
 
-        <div>
+		<main>
+			<!-- main image  -->
 
-            <img src="img/London-Soccer.jpg.crdownload" alt="london soccer" title="london soccer" width="300" height="300">
+			<div class="container-pics">
+				<img id="main-pic" src="img/england pic1 resized.jpg" alt="" />
 
-        </div>
+				<!-- three images on three columsn -->
 
-        <div>
+				<div class="row">
+					<div class="col1"><img src="img/england pic2.jpg" alt="" /></div>
+					<div class="col1"><img src="img/london-bridge.jpg" alt="" /></div>
+					<div class="col1"><img src="img/soccer-team.jpg" alt="" /></div>
+				</div>
+			</div>
+		</main>
 
-            <img src="img/london-big-ben.jpg" alt="london big ben" title="london big ben" width="300" height="300">
+		<!-- footer section 
+        
+        starts -->
+		<footer>
+			<p>Copryright 2022 by Long Nguyen</p>
 
-        </div>
-
-        </div>
-
-
-
-    </main>
-
-    <footer>
-        <p>Copryright 2022 by Long Nguyen</p>
-    </footer>
-
-
-
-    </div>
-
- 
-
-
-
-    
-</body>
+	
+		</footer>
+	</body>
 </html>
