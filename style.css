@@ -1,107 +1,103 @@
-
 /* to set up page with no margin and padding */
-*
-{
-    margin: 0;
-    padding: 0;
-
+* {
+	margin: 0;
+	padding: 0;
 }
 
 /* set image to 100% max width */
-img
-{
-    max-width: 100%;
+img {
+	max-width: 100%;
 }
 
-/* set up page background color  and page border*/
-.container
-{
-    background-color: antiquewhite;
-    
-    border: 2px solid red;
+/* Navigation Format start */
 
-    /* using margin left and right and set to auto to center container */
-    margin-left: 40px;
-    margin-right: 40px;
-    
+/* format navbar  */
+.navbar {
+	background: linear-gradient(rgb(144, 140, 140), rgb(240, 12, 12));
 }
 
-/* format header */
-header
-{
-    
-    border: 1px solid red;
-    text-align: center;
-    padding: 5px;
-    color: white;
-    background-color: lightcoral;
+/* format navbar img */
+.banner-pic {
+	width: 100px;
+	height: 80px;
+	margin-left: 3%;
+	margin-right: 3%;
 }
 
-/* format navigation bar */
-.nav-bar
-{
-    
-    display: flex;
-    flex-direction: row;
-    
-    /* to align nav bar item center horizontally */
-    justify-content: center;
-   
-    /* to align nav bar items center vertically */
-    align-items: center;
+/* format conatiner banner */
 
-    /* to align text center inside its box */
-    text-align: center;
-    /* to remove the bullet in list */
-    list-style-type: none;
-
-    /* to chang items to all uppercase */
-    text-transform: uppercase;
-    background-color: darkgrey;
-    height: 40px;
-   
+.container-banner {
+	text-align: center;
+	margin: auto;
+	width: 60%;
 }
 
-/* fomrat the nav bar items */
-.nav-bar li 
-{
-background-color: grey;
-box-sizing: border-box;
-width: 180px;
-border: 1px solid black;
-text-decoration: none;
-padding: 5px;
-margin-right: 15px;
-
+/* format navbar banner */
+.navbar h1 {
+	color: whitesmoke;
+	font-family: "Cookie", cursive;
+	font-size: 60px;
+	margin-top: 1%;
 }
 
-/* format three images div to display on row */
-.three-column
-{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    
-    
- 
+/* format navbar ul  */
+.navbar-menu li {
+	display: inline-block;
+	color: black;
+	font-size: 20px;
+	font-weight: 400;
+	font-family: sans-serif;
+	letter-spacing: 3px;
+	margin-right: 10px;
+	transition: 0.5s;
+}
+
+/* hover effect on ul li */
+.navbar-menu li:hover {
+	color: white;
+	border-top: 3px solid rgb(2, 2, 45);
+	border-bottom: 5px dashed rgb(2, 2, 44);
+	font-size: 35px;
+}
+
+/* format hr tag*/
+hr {
+	border: 5px double rgb(241, 6, 6);
+}
+/* Navigation Format ends */
+
+/* Main image format starts */
+
+/* format main pic */
+.container-pics {
+	width: 100%;
+	height: auto;
+	border: 2px solid red;
+	padding: 5px;
+	background: grey;
+}
+
+#main-pic {
+	width: 100%;
+	padding: 5px;
+}
+
+/* Main image format ends */
+
+/* three column pic format starts*/
+
+/* format the row */
+.row {
+	display: flex;
+	justify-content: center;
+}
+
+/* format col1 */
+.col1 {
+	flex-basis: 30%;
 }
 
 
-/* format three images with border and padding */
-.three-column img
-{
-    border: 3px solid greenyellow;
-   
-    margin: 10px;
-    margin-right: auto;
-    
-} 
 
+/* Three column pic format ends */
 
-/* format footer */
-footer
-{
-    text-align: center;
-    color: red;
-    padding-bottom: 3%;
-}
